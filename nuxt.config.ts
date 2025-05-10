@@ -7,5 +7,8 @@ export default defineNuxtConfig({
     '@element-plus/nuxt'
   ],
   // element 配置
-  elementPlus: {/** */}
+  elementPlus: {/** */},
+    nitro: {
+      preset: 'vercel'
+  }
 })
